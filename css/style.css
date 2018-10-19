@@ -1,0 +1,53 @@
+*{
+    box-sizing:border-box;
+}
+
+h1{
+    margin: 0 auto;
+    width:500px;
+    text-align: center;
+}
+
+#gameboard{
+    background-color:grey;
+    margin:24px auto;
+    width:640px;
+    height:640px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+    0 2px 4px 0 rgba(0,0,0,0.08);
+}
+
+.description{
+    width:640px;
+    margin:0 auto;
+    font-size:1.2rem;
+}
+
+.restart{
+    width:640px;
+    text-align:center;
+    margin:8px auto;
+}
+
+.restart > button{
+    font-size:2rem;
+}
+
+.counter{
+    width:640px;
+    text-align: center;
+    margin:0 auto;
+    font-size:2rem;
+    font-family: "Courier New", "sans-serif";
+}
+
+.container{
+    display:flex;
+}
+
+.board_tile{
+    background-color:#f2f2f2;
+    /*border:1px solid black;*/
+}
