@@ -13,7 +13,7 @@ $(document).ready(function () {
 
     const width = 640;
     const height = 640;
-    const size = 40;
+    const size = 41;
 
     let command = null;
     let isGameFinished = false;
